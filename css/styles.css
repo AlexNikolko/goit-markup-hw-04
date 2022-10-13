@@ -208,6 +208,9 @@ ul {
 .button-secondary:focus {
     color: var(--text-wight);
     background: var(--accent-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+                0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+                0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* Page */
@@ -304,7 +307,8 @@ ul {
     width: 270px;    
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+                0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     
     background: #ffffff;
 }
@@ -473,6 +477,7 @@ ul {
 
 .examples-name {
     margin: 0 0 4px 0;
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -482,15 +487,21 @@ ul {
 
 .examples-type {
     margin: 0;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 .examples.list {
     display: flex;
     flex-wrap: wrap;
+}
+
+.examples-card {
+    text-decoration: none;
 }
 
 .card {
@@ -500,6 +511,12 @@ ul {
     margin-bottom: 30px;
     
     background: #ffffff;
+}
+
+.examples-card:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+                0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+                0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .card:nth-child(3n) {
