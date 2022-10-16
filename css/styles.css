@@ -114,6 +114,8 @@ ul {
 /* Contact header*/
 
 .contact-hd .contact-link {
+    display: flex;
+    align-items: center;
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -129,6 +131,16 @@ ul {
 .contact-hd li + li {
     margin-left: 50px;
 }
+
+.contact-icone {  
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.contact-link {
+    
+}
+
 
 /* Hero */
 
@@ -418,6 +430,11 @@ ul {
 
 }
 
+.container.ft {
+    display: flex;
+    align-items: baseline;    
+}
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 20px;
@@ -433,8 +450,9 @@ ul {
     margin-top: 9px;
 }
 
-.contact-ft {
+.contact-ft {    
     font-style: normal;
+    margin-right: 50px;
 }
 
 .contact-ft .contact-adr-link {
@@ -452,6 +470,30 @@ ul {
 .contact-ft .contact-adr-link:hover,
 .contact-ft .contact-adr-link:focus {
     color: var(--accent-color);
+}
+
+.accession {
+    margin-top: 12px;    
+}
+
+.net-list.accession {
+    margin-top: 20px;
+}
+
+.accession h3 {
+    color: var(--text-wight);
+}
+
+.accession .net-icon {
+    fill: #ffffff;
+}
+
+.accession .net-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.accession .net-link:hover {
+    background-color: var(--accent-color);
 }
 
 /* Portfolio */
