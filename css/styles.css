@@ -258,6 +258,8 @@ ul {
 
 .benefits-link {
     margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: var(--button-sec-color);
     border-radius: 4px;
     display: flex;
@@ -266,8 +268,7 @@ ul {
 }
 
 .benefits-icon {
-    margin-top: 25px;
-    margin-bottom: 25px;
+ 
 }
 
 /* Ocupation */
@@ -472,16 +473,9 @@ ul {
     color: var(--accent-color);
 }
 
-.accession {
-    margin-top: 12px;    
-}
-
-.net-list.accession {
-    margin-top: 20px;
-}
-
-.accession h3 {
+.accession-title {
     color: var(--text-wight);
+    margin-bottom: 20px;
 }
 
 .accession .net-icon {
